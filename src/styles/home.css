@@ -1,0 +1,25 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f8ff;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.service-card:hover {
+    background-color: #4caf50;
+    color: white;
+}
